@@ -1,0 +1,194 @@
+"C:\Program Files\Python310\python.exe" D:\Dustin\python\mqtt\mqtttest\pythonProject\mqtt2b4c.py 
+D:\Dustin\python\mqtt\mqtttest\pythonProject\mqtt2b4c.py:31: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client()
+Connecting to broker...
+Connected with result code 0
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:43:184",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"317",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/2bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:42:148",
+		"Name":"BAW-2C",
+		"Type":"Sport0",
+		"Slave ID":"1",
+		"Function Code":"3",
+		"Starting Address":"0",
+		"Quantity of Register":"8",
+		"Byte Count":"16",
+		"Register Values":"08750000177500000000014a00016eb5"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:43:492",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"321",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/2bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:52:148",
+		"Name":"BAW-2C",
+		"Type":"Sport0",
+		"Slave ID":"1",
+		"Function Code":"3",
+		"Starting Address":"0",
+		"Quantity of Register":"8",
+		"Byte Count":"16",
+		"Register Values":"08770000177000000000014900016eb5"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:43:492",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"321",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:52:888",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"313",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:52:888",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"313",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:53:184",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"317",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:53:184",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"317",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:53:488",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"321",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+Received message on mqttlei/4bawc: {
+"modbus-type":[
+	{
+		"Timestamp":"2025-04-02 10:47:53:488",
+		"Name":"BAW-4C",
+		"Type":"Sport0",
+		"Slave ID":"2",
+		"Function Code":"3",
+		"Starting Address":"321",
+		"Quantity of Register":"1",
+		"Byte Count":"2",
+		"Register Values":"0000"
+	}
+]
+}
+
+1743060517: mosquitto version 2.0.21 running
+1743060878: mosquitto version 2.0.21 terminating
+1743063143: mosquitto version 2.0.21 starting
+1743063143: Config loaded from /home/ec2-user/mosquitto/config/mosquitto.conf.
+1743063143: Opening ipv4 listen socket on port 1883.
+1743063143: Opening ipv6 listen socket on port 1883.
+1743063143: mosquitto version 2.0.21 running
+
+
+1743561612: New connection from 60.251.85.8:54520 on port 18830.
+1743561612: New client connected from 60.251.85.8:54520 as auto-42E04534-F159-28FA-D9D8-6FF66E4FDAEB (p2, c1, k60, u'mqttlei').
+1743561838: New connection from 60.251.85.8:55031 on port 18830.
+1743561838: New client connected from 60.251.85.8:55031 as paho1122884378791400 (p2, c1, k60, u'mqttlei').
